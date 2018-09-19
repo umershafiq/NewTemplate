@@ -1,0 +1,256 @@
+*{
+	letter-spacing: 3px;		
+}
+p{
+	font-size: 15px;
+}
+.navbar, .intro, #dolor{
+	background-color: #222845;
+	text-transform: uppercase;
+	color: white;
+}
+.navbar-brand{
+	font-size: 16px;
+	padding-top: 10px;		
+}
+a, a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+.text{
+	display: flex;
+	padding-bottom: 250px;
+}
+#web{
+	background-color: white;
+	color: black;
+	padding: 4px;
+	margin-right: 2px;
+}
+.overlay {
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;		
+	background-color: rgba(34, 40, 69, 0.99);
+}
+.overlay-content {
+	position: relative;
+	top: 25%;
+	width: 25%;
+	text-align: center;
+	margin-top: 30px;
+	margin: 0 auto;
+	margin: 0 auto;
+}
+.overlay a {
+	padding: 25px;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+	border-bottom: 0.5px solid white;
+}
+.overlay button{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	width: 100%;
+	border: 3px solid white;
+	text-transform: uppercase;
+}
+button{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 15px;
+	color: white;
+	border: 2px solid white;
+	text-transform: uppercase;
+}
+#imgtext{
+	padding-top: 150px;
+	padding-bottom: 150px;
+	margin-left: 25px;
+}
+#imgtext h2:after{
+	content: ""; 
+	display: block;
+	width: 50%;
+	padding-top: 20px;
+	border-bottom: 1px solid white;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	right: 25px;
+	font-size: 48px
+}
+
+@media screen and (max-height: 450px) {
+	.overlay a {font-size: 20px}
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+.intro h1{
+	width: 100%;
+	border-bottom: 1px solid white;
+	text-transform: capitalize;
+	font-size: 48px;
+}
+
+#introtext{
+	padding-top: 250px;
+	padding-bottom: 150px;
+}
+
+.logo {
+	float: left;
+	padding: 10px;
+	position: relative;
+}
+
+.logo a span { 
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	z-index: 1;
+}
+.fa-arrow-right{
+	padding-left: 10px;
+	color: white;
+}
+
+#contact input{
+	width: 100%;
+	height: 50px;
+	border:none;
+	margin-bottom: 25px;
+}
+
+footer{
+	padding-top: 100px;
+	background-color: #22283A;
+	text-transform: uppercase;
+	color: white;
+	padding-bottom: 50px;
+}
+
+#contact{
+	background-color: #22283A;
+	text-transform: uppercase;
+	color: white;
+
+}
+textarea{
+	width: 100%;
+	resize: none;
+}
+
+
+#contact button{
+	display: inline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+	border: 2px solid white;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+#contact{
+	border-bottom: 1px solid white;
+}
+i{
+	color: black;
+	padding: 8px;
+	font-size: 32px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+#contact i{
+	border-radius: 35px;
+	background-color: white;
+	color: black;
+	margin-right: 20px;
+	margin-left: 25px;
+}
+#contact ul li{
+	display: flex;
+	margin-bottom: 50px;
+	padding-bottom: 25px;
+}
+
+#contact ul li h3{
+	padding-bottom: 25px;
+}
+#contact h3{
+	font-weight: bolder;
+}
+#a{
+	background-color: #74BAD3;
+	transition: all 2s;
+
+}
+#a:hover{
+	background-color: #7CB098;
+}
+#b{
+	background-color: #827AB6;
+	transition: all 2s;
+}
+#b:hover{
+	background-color: #829AD1;
+}
+#c{
+	background-color:#DD8C84;
+	transition: all 2s;
+}
+#c:hover{
+	background-color:#222845;
+}
+
+#d{
+	background-color: #D7AD87;
+	transition: all 2s;
+}
+#d:hover{
+	background-color: #22283A;
+}
+
+#e{
+	background-color: #829AD1;
+	transition: all 2s;
+}
+#e:hover{
+	background-color: #827AB6;
+}
+
+#f{
+	background-color: #7CB098;
+	transition: all 2s;
+}
+
+#f:hover{
+	background-color: #74BAD3;
+}
